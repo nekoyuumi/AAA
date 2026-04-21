@@ -3,7 +3,7 @@ import streamlit as st
 # ==========================================
 # 1. 網頁基本設定與精品 CSS 樣式
 # ==========================================
-st.set_page_config(page_title="美綠藤印加果油 | 黃金淬煉之旅", page_icon="🌿", layout="wide")
+st.set_page_config(page_title="印加果油 | 黃金淬煉之旅", page_icon="🌿", layout="wide")
 
 st.markdown("""
 <style>
