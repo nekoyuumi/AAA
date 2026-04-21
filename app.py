@@ -3,7 +3,7 @@ import streamlit as st
 # ==========================================
 # 1. 網頁基本設定與 CSS 精品樣式
 # ==========================================
-st.set_page_config(page_title="美綠藤印加果油 | 官方旗艦店", page_icon="🌿", layout="wide")
+st.set_page_config(page_title="印加果油 | 官方旗艦店", page_icon="🌿", layout="wide")
 
 st.markdown("""
 <style>
@@ -30,7 +30,7 @@ st.markdown("""
 # 2. 側邊欄 (Sidebar) 導覽選單
 # ==========================================
 st.sidebar.image("images/877125.jpg", use_container_width=True) # 側邊欄放個產品小圖
-st.sidebar.title("🌿 美綠藤官方旗艦店")
+st.sidebar.title("🌿 官方旗艦店")
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
     "請選擇您想瀏覽的頁面：",
@@ -76,7 +76,7 @@ elif page == "🥇 單瓶首購體驗":
         st.image("images/877123_0.jpg", use_container_width=True) # 使用有專家的照片增加單瓶信任感
     
     with col_info:
-        st.markdown("### 🌿 美綠藤頂級印加果油 (250ml)")
+        st.markdown("### 🌿 頂級印加果油 (250ml)")
         st.write("**適合對象**：想初步嘗試替換家中食用油、注重日常基礎保養的您。")
         st.markdown("""
         * **15 倍維生素 E**：強大的抗氧化力。
